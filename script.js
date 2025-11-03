@@ -8,5 +8,7 @@ let operation = null;
 let shouldResetScreen = false;
 // Mise à jour de l'affichage
 function updateDisplay() {
+ document.getElementById('display').textContent = currentInput;
+}
     document.getElementById('display').textContent = currentInput;
 }
