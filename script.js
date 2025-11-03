@@ -10,3 +10,5 @@ let shouldResetScreen = false;
 function updateDisplay() {
  document.getElementById('display').textContent = currentInput;
 }
+    document.getElementById('display').textContent = currentInput;
+}
